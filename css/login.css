@@ -1,0 +1,99 @@
+.register-box{
+	margin-top:100px;
+}
+.row:after{
+	content:".";
+	height:0;
+	clear:both;
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+}
+.header-tit{
+	padding:50px 0 22px;
+}
+.inputs-area input{
+    height:48px;
+    margin-bottom:14px;
+    border:1px solid #e0e0e0;
+    outline:0;
+}
+#login{
+	margin:20px 0 30px;
+	background:#ef5b00;
+	color:#fff;
+}
+/*修改bookstrap中legend标签默认样式
+*/fieldset{
+	zoom: 1;
+    padding-top: 10px;
+    padding: 0;
+    margin: 0;
+    display: block;
+    border-top: 1px solid silver;  /*上边框要有*/
+}
+legend{
+	width:100px;   /*宽度必须小于容器宽度，不能设为100%*/
+	font-size: 14px;
+    color: #b0b0b0;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    border: none;  /*legend不能有边框*/
+    zoom: 1;
+}
+.other-type-link{
+	text-align:center;
+	padding:0;
+	padding-top:10px;
+	display:block;
+	padding-left:50px;
+}
+.other-type-link a{
+	float:left;
+	width:30px;
+	height:30px;
+	margin-right:40px;
+	background-color:#757575;
+	border-radius:100%;
+	padding:6px;
+}
+.other-type-link .qq:hover{
+   background:#0288d1;
+}
+.other-type-link .microblock:hover{
+   background:#d32f2f;
+}
+.other-type-link .alipay:hover{
+   background:#0ae;
+}
+.other-type-link a i{
+    display:block;
+    width:18px;
+    height:18px;
+}
+#btn-qq{
+	background:url(../images/icon/login-type.png) no-repeat -20px 0px;
+}
+#btn-microblog{
+	background:url(../images/icon/login-type.png) no-repeat -38px 0px;
+}
+#btn-alipay{
+	background:url(../images/icon/login-type.png) no-repeat -57px 0px;
+}
+.links-area{
+	padding-top:40px;
+	text-align:center;
+	color:#e0e0e0;
+}
+.links-area a{
+	color:#757575;
+    padding:0 9px;
+}
+.links-area a:hover{
+	text-decoration:none;
+	color:#ff6700;
+}
+.footer{
+	margin-top:120px;
+}

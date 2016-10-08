@@ -1,0 +1,204 @@
+{
+    "resultcode": "200",
+    "reason": "Success",
+    "result": {
+        "header-nav":[
+               [{
+                  "img":"http://c1.mifile.cn/f/i/g/doodle/5s-110!160x110.jpg",
+                  "name":"小米5s",
+                  "price":"1999元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/g/doodle/5splus-220!160x110.jpg",
+                   "name":"小米5s plus",
+                   "price":"1999元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/16/goods/nav/mi5!160x110.jpg",
+                   "name":"小米手机5",
+                   "price":"1599元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/15/goods/nav/maxdingbu!160x110.jpg",
+                   "name":"小米max",
+                   "price":"1299元起"
+                }],
+                [{
+                  "img":"//c1.mifile.cn/f/i/g/2015/cn-index/hongmipro-320!160x110.jpg",
+                  "name":"红米Pro",
+                  "price":"1499元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/g/doodle/hongminote4!160x110.jpg",
+                   "name":"红米Note4",
+                   "price":"899元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/15/goods/nav/note3!160x110.jpg",
+                   "name":"红米Note3",
+                   "price":"799元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/g/2015/video/hongmi3s!160x110.jpg",
+                   "name":"红米手机3s",
+                   "price":"699元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/15/goods/nav/hongmi3!160x110.jpg",
+                   "name":"红米手机3",
+                   "price":"699元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/g/doodle/320-220!160x110.jpg",
+                   "name":"红米手机3X",
+                   "price":"799元起"
+                }],
+                [{
+                  "img":"//c1.mifile.cn/f/i/15/goods/nav/mipad2-16!160x110.jpg",
+                  "name":"小米平板2 16GD",
+                  "price":"999元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/15/goods/nav/mipad2-64!160x110.jpg",
+                   "name":"小米平板2 64GD",
+                   "price":"1299元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/15/goods/nav/mipad2-64-win!160x110.jpg",
+                   "name":"小米平板2 64GD Windows版",
+                   "price":"1299元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/g/2015/video/bijiben32012.5!160x110.jpg",
+                   "name":"小米笔记本Air 12.5",
+                   "price":"3499元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/g/2015/cn-index/bijiben320!160x110.jpg",
+                   "name":"小米笔记本Air 13.3",
+                   "price":"4999元起"
+                }],
+                [{
+                  "img":"//c1.mifile.cn/f/i/g/2015/cn-index/43toubu.png",
+                  "name":"小米电视3s 43英寸",
+                  "price":"1799元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/g/2015/cn-index/48toubu.png",
+                   "name":"小米电视3s 48英寸",
+                   "price":"1999元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/g/2015/cn-index/55toubu1.png",
+                   "name":"小米电视3s 55英寸",
+                   "price":"3499元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/g/2015/cn-index/65toubu.png",
+                   "name":"小米电视3s 65英寸",
+                   "price":"4999元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/g/2015/cn-index/70toubu.png",
+                   "name":"小米电视3s 70英寸",
+                   "price":"9999元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/16/goods/nav/mitv3s-65!160x110.jpg",
+                   "name":"查看全部",
+                   "price":"小米电视"
+                }],
+                [{
+                  "img":"//c1.mifile.cn/f/i/15/goods/nav/hezimini.png",
+                  "name":"小米盒子 mini版",
+                  "price":"179元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/15/goods/nav/hezi3.png",
+                   "name":"小米盒子3",
+                   "price":"249元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/15/goods/nav/hezi3s!160x110.jpg",
+                   "name":"小米盒子3 增强版",
+                   "price":"399元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/g/2015/cn-index/zhuji!160x110.jpg",
+                   "name":"小米电视主机",
+                   "price":"999元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/g/2015/cn-index/jinshuban!160x110.jpg",
+                   "name":"小米家庭音响 金属版",
+                   "price":"899元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/g/2015/cn-index/putonban!160x110.jpg",
+                   "name":"小米家庭音响 标准版",
+                   "price":"699"
+                }],
+                [{
+                  "img":"//c1.mifile.cn/f/i/15/goods/nav/miwifi!160x110.jpg",
+                  "name":"全新小米路由器",
+                  "price":"699元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/15/goods/nav/miwifi-3!160x110.jpg",
+                   "name":"小米路由器3 1200M",
+                   "price":"149元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/15/goods/nav/miwifimini!160x110.jpg",
+                   "name":"小米路由器 mini",
+                   "price":"129元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/g/2015/cn-index/luyouqi3c!160x110.jpg",
+                   "name":"小米路由器3C 300M",
+                   "price":"99元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/15/goods/nav/miwifilite!160x110.jpg",
+                   "name":"小米路由器 青春版",
+                   "price":"79元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/15/goods/nav/wifiExtension!160x110.jpg",
+                   "name":"小米WIFI放大器",
+                   "price":"39元"
+                }],
+                [{
+                  "img":"//c1.mifile.cn/f/i/15/goods/nav/scooter!160x110.jpg",
+                  "name":"9号平衡车",
+                  "price":"1999元"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/g/2015/cn-index/water2!160x110.jpg",
+                   "name":"小米净水器",
+                   "price":"1299元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/g/2015/cn-index/dianfanbao!160x110.jpg",
+                   "name":"米家压力IH电饭煲",
+                   "price":"999元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/16/goods/nav/air2!160x110.jpg",
+                   "name":"小米空气净化器2",
+                   "price":"699元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/g/2015/video/xiaobaishexiangji!160x110.jpg",
+                   "name":"智能摄像机",
+                   "price":"149元起"
+                },
+                {
+                   "img":"//c1.mifile.cn/f/i/g/doodle/zhinengyingjian!160x110.jpg",
+                   "name":"查看全部",
+                   "price":"智能硬件"
+                }]
+         ]
+    },
+    "error_code": 0
+}

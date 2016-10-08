@@ -1,0 +1,256 @@
+body{
+	background:#f9f9f9;
+	overflow-y:scroll!important;
+}
+.logo-area{
+	width:960px;
+	height:31px;
+	line-height:31px;
+	margin:0 auto;
+	padding:50px 0;
+}
+.logo-area .miId-logo{
+	float:left;
+}
+.logo-area .back{
+	float:right;
+	font-size:14px;
+	color:#ababab;
+}
+.main-nav{
+	width:960px;
+	height:44px;
+	margin:0 auto;
+}
+.main-nav ul li{
+	list-style:none;
+	float:left;
+	padding:0 34px;
+	color:#333;
+	line-height:20px;
+	font-size:14px;
+	font-weight:bold;
+}
+.ifram1{
+	width:960px;
+	margin:0 auto;
+	border:1px solid #e6e6e6;
+	background:#fff;
+	padding-bottom:50px;
+}
+.ifram1:after{
+	content:".";
+	height:0;
+	clear:both;
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+}
+.main-l{
+	width:300px;
+	float:left;
+	padding:80px 20px 0;
+	text-align:center;
+}
+.img-box{
+	width:80px;
+	height:80px;
+	background:#fff;
+	border:2px solid #e3e3e3;
+	border-radius:100%;
+	margin:0 auto;
+	padding:4px;
+	text-align:center;
+}
+.main-l .img{
+	width:100%;
+	height:100%;
+	border:2px solid #e3e3e3;
+	border-radius:100%;
+	background:url(../images/bg/image.png) no-repeat center center;
+}
+.main-l .setImg{
+	display:block;
+	padding-top:15px;
+	color:#4a90e3;
+	font-size:14px;
+}
+.main-r{
+	width:590px;
+	float:left;
+}
+.main-r h3{
+	font-size:16px;
+	color:#333;
+	font-weight:bold;
+	line-height:40px;
+	border-bottom:2px solid #e6e6e6;
+	padding-left:20px;
+	margin-top:15px;
+}
+.main-r h3 a{
+	float:right;
+	color:#4a90e3;
+	font-size:14px;
+	line-height:40px;
+}
+.main-r h3 a:hover{
+	text-decoration:none;
+}
+.main-r p{
+	line-height:40px;
+	border-bottom:2px solid #e6e6e6;
+	padding-left:20px;
+}
+.main-r p a{
+	float:right;
+	color:#4a90e3;
+	font-size:14px;
+	line-height:40px;
+}
+.main-r p a:hover{
+	text-decoration:none;
+}
+.main-r .id-region{
+	border-bottom:none;
+}
+.topup-mask{
+	height:100%;
+	width:100%;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:99;	
+	display:none;
+}
+.topup-mask .add-data{
+	padding:0 14px 30px;
+	background:#fff;
+	width:412px;
+	min-height:300px;
+	height:auto;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	z-index:999;
+}
+.topup-mask .cover{
+	height:200%;
+	width:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	background:#333;
+	opacity:0.65;
+	filter:alpha(opacity=60);
+}
+.add-data h2{
+    height:42px;
+    line-height:42px;
+    color:#333;
+    font-size:12px;
+    margin:0;
+    font-weight:bold;
+    border-bottom:1px solid #e6e6e6;
+}
+.add-data label{
+	width:25%;
+	text-align:right;
+	height:42px;
+	line-height:42px;
+}
+.add-data input{
+	text-indent:10px;
+	font-size:12px;
+	height:42px;
+	border:1px solid #e8e8e8;
+}
+.add-data .userName{
+	margin-top:40px;
+}
+.add-data .userName input{
+	width:70%;
+}
+.add-data .birthday:after{
+   content:".";
+   clear:both;
+   height:0;
+   display:block;
+   overflow:hidden;
+   visibility:hidden;
+}
+.birthday div{
+	position:relative;
+}
+.birthday span{
+	display:inline-block;
+	width:79px;
+	background:#fff;
+	border:1px solid #e8e8e8;
+   height:42px;
+   line-height:42px;
+   text-indent:10px;
+}
+.birthday b{
+    float:left;
+	width:16px;
+	height:16px;
+	margin:12px 6px 0 6px;
+	background:url(../images/icon/register.png) no-repeat 0 0;
+}
+.birthday em{
+    float:left;
+	width:48px;
+	border-right:1px solid #e8e8e8;
+}
+.sex span{
+    display:inline-block;
+    margin-right:20px;
+    background:url(../images/bg/sex.png) no-repeat left center;
+    text-indent:30px;
+}
+.btns{
+	margin-top:25px;
+	text-align:center;
+}
+#save{
+	background:#ff6700;
+	width:100px;
+	margin-right:10px;
+	margin-left:12px;
+}
+#cancle{
+	background:#fff;
+	width:100px;
+}
+.birthday .date{
+	float:left;
+	position:relative;
+	width:81px;
+	height:42px;
+	margin-right:6px;
+	cursor:pointer;
+}
+.birthday .date li{
+	list-style:none;
+	padding-left:10px;
+	line-height:26px;
+}
+.year-list,.month-list,.day-list{
+	position:absolute;
+	left:0;
+	top:42px;
+	height:156px;
+	width:79px;
+	border:1px solid #e8e8e8;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	background:#fff;
+	display:none;
+}
+.test .error{
+    margin-left:48px;
+}
+
+

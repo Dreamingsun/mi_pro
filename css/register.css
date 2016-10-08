@@ -1,0 +1,225 @@
+body{
+	overflow:-scroll;
+	overflow-y:hidden;
+	background:#f9f9f9!important;
+	height:100%;
+}
+.register-box{
+	width:854px;
+	min-height:400px;
+	background:#fff;
+	margin:145px auto 0px;
+	padding-bottom:50px;
+}
+.logo-area{
+	text-align:center;
+	padding-bottom:40px;
+}
+.title-item{
+	text-align:center;
+	color:#333;
+}
+.title-item h4{
+	font-size:30px;
+	color:#333;
+	font-weight:bold;
+	line-height:1.5;
+	margin:0;
+}
+.regbox{
+	padding:0!important;
+	width:40%;
+	margin-left:30%;
+	padding-top:30px!important;
+}
+.regbox .country{
+	position:relative;
+}
+.regbox .form-control{
+	height:42px;
+/*	margin-bottom:15px;
+*/	font-size:12px;
+}
+/*去掉bookstrap的表单输入框focus状态默认样式*/
+.regbox .form-control:focus{
+    border-color: #ccc;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow:none;
+}
+/*去电表单中按钮的默认样式*/
+.regbox .cancel:focus{
+	border-color: #ccc!important;
+    outline: 0!important;
+    -webkit-box-shadow: none!important;
+    box-shadow:none!important;
+}
+.regbox .test-form{
+	margin-bottom:30px;
+}
+.form-group{
+	height:42px;
+	margin-left:0!important;
+	margin-right:0!important;
+}
+#region-btn{
+	height:42px;
+}
+#region{
+	cursor:pointer;
+}
+.more{
+	display:block!important;
+	width:16px!important;
+	height:16px!important;
+	background:url(../images/icon/register.png) no-repeat 0 0;
+}
+/*更改placeholder默认样式注意兼容问题哦*/
+#region::-webkit-input-placeholder{
+	color:#333;
+}
+#region::-moz-placeholder{
+	color:#333;
+}
+#region:-ms-input-placeholder{
+	color:#333;
+}
+#phone:-ms-input-placeholder{
+	color:#ccc;
+	line-height:42px;
+}
+#number:-ms-input-placeholder{
+	color:#ccc;
+	line-height:42px;
+}
+/*testPhone*/
+.test{
+	display:block;
+	line-height:20px;
+	font-size:12px;
+	color:#ff6700;
+	display:none;
+	margin:-8px 0 5px 0;
+}
+.testNum{
+	margin:-23px 0 5px 0;
+}
+.test .error{
+	/*float:left;*/
+	display:inline-block;
+	vertical-align:middle;
+	width:14px;
+	height:14px;
+}
+.test-img{
+	height:42px;
+	padding:0!important;
+}
+.img-btn{
+	height:42px;
+	border:none;
+	padding:0!important;
+	background:url(../images/bg/testImg1.bmp) no-repeat center center;
+}
+.reg{
+	background:#ff6700!important;
+	height:42px;
+	color:#fff!important;
+	font-size:14px!important;
+}
+.reg:hover{
+/*	background:#ff936a;
+*/	opacity:0.65;
+	filter:alpha(opacity=65);
+}
+.msg{
+	font-size:12px;
+	color:#9d9d9d;
+	margin-top:10px;
+}
+.msg i{
+	color:#333;
+}
+.footer{
+	margin-top:140px;
+	width:100%;
+	height:80px;
+	font-size:12px;
+}
+.footer-link{
+	width:20%;
+	margin:0 auto;
+	height:16px;
+}
+.footer-link li{
+	float:left;
+	list-style:none;
+}
+.footer-link li a{
+	padding:0 10px;
+	color:#757575;
+}
+.footer-link li a:hover{
+	text-decoration:none;
+}
+.copyright{
+    text-align:center;
+    color:#9d9d9d;    
+    padding:10px;
+    line-height:40px;    
+    height:40px;
+}
+.copy-icon{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background:url(../images/icon/gh.png);
+}
+/*countrylist*/
+.countryList{
+	width:100%;
+	height:270px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	border:1px solid #ccc;
+	border-top:none;
+	background:#fff;
+	opacity:1;
+	position:absolute;
+	left:0;
+	top:41px;
+	z-index:98;  /*把下面的内容覆盖掉*/
+	display:none;
+}
+.countryList p{
+	background:#fcdecc;
+	color:#ef5b00;
+	height:30px;
+	line-height:30px;
+	padding-left:10px;
+	font-size:12px;
+	margin-bottom:0;
+}
+.countryList ul{
+	margin-bottom:0;
+}
+.countryList ul li{
+	line-height:39px;
+	color:#000;
+	border-bottom:1px solid #e0e0e0;
+	font-size:12px;
+	padding:0 10px;
+	cursor:pointer;
+}
+.countryList ul li span{
+	float:right;
+	color:#9d9d9d;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册页面</title>
+	<script src="../js/jquery_1.11.3.min.js"></script>
+	<script src="../js/register.js"></script>
+	<script src="../js/jquery.cookie.js"></script>
+	<script src="../js/Placeholders.js-master/lib/placeholders.js"></script>
+	<link rel="stylesheet" href="../css/register.css"/>
+	<link rel="stylesheet" href="../css/commen.css"/>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="../js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<div class="register-box">
+		<div class="logo-area">
+			<span class="milogo"><img src="../images/logo/mi.png"/></span>
+		</div>
+		<div class="title-item">
+			<h4>注册小米账号</h4>
+		</div>
+		<div class="row">
+			<div class="regbox">
+			<!-- 表单开始 -->
+				<form class="form-horizontal " role="form" onSubmit="return false"><!--  -->
+				    <div class="form-group country">
+				       <div class="input-group">
+					      <input type="text" id="region" class="form-control" placeholder="中国(+86)">
+					      <div class="input-group-btn">
+					        <button type="button" id="region-btn" class="btn btn-default cancel"><span class="more"></span></button>
+					      </div><!-- /btn-group -->
+					   </div>
+					   <div class="countryList">
+					   		<p>常用</p>
+					   		<ul>
+					   			<li>中国<span>+86</span></li>
+					   			<li>中国台湾<span>+886</span></li>
+					   			<li>中国香港<span>+852</span></li>
+					   			<li>Brazil<span>+55</span></li>
+					   			<li>India<span>+91</span></li>
+					   			<li>Indonesia<span>+62</span></li>
+					   			<li>Malaysia<span>+60</span></li>
+					   		</ul>
+					   		<p>A</p>
+					   		<ul>
+					   			<li>Andorra<span>+376</span></li>
+					   			<li>Andorra<span>+376</span></li>
+					   			<li>Andorra<span>+376</span></li>
+					   			<li>Andorra<span>+376</span></li>
+					   			<li>Andorra<span>+376</span></li>
+					   			<li>Andorra<span>+376</span></li>
+					   			<li>Andorra<span>+376</span></li>
+					   			<li>Andorra<span>+376</span></li>
+					   			<li>Andorra<span>+376</span></li>
+					   			<li>Andorra<span>+376</span></li>
+					   			<li>Andorra<span>+376</span></li>
+					   			<li>Andorra<span>+376</span></li>
+					   			<li>Andorra<span>+376</span></li>
+					   		</ul>
+					   		<p>B</p>
+					   		<ul>
+					   			<li>Bosnia and Herzegovina<span>+387</span></li>
+					   			<li>Bosnia and Herzegovina<span>+387</span></li>
+					   			<li>Bosnia and Herzegovina<span>+387</span></li>
+					   			<li>Bosnia and Herzegovina<span>+387</span></li>
+					   			<li>Bosnia and Herzegovina<span>+387</span></li>
+					   			<li>Bosnia and Herzegovina<span>+387</span></li>
+					   			<li>Bosnia and Herzegovina<span>+387</span></li>
+					   			<li>Bosnia and Herzegovina<span>+387</span></li>
+					   			<li>Bosnia and Herzegovina<span>+387</span></li>
+					   			<li>Bosnia and Herzegovina<span>+387</span></li>
+					   			<li>Bosnia and Herzegovina<span>+387</span></li>
+					   			<li>Bosnia and Herzegovina<span>+387</span></li>
+					   			<li>Bosnia and Herzegovina<span>+387</span></li>
+					   			<li>Bosnia and Herzegovina<span>+387</span></li>
+					   			<li>Bosnia and Herzegovina<span>+387</span></li>
+					   			<li>Bosnia and Herzegovina<span>+387</span></li>
+					   			<li>Bosnia and Herzegovina<span>+387</span></li>
+					   			<li>Bosnia and Herzegovina<span>+387</span></li>
+					   			<li>Bosnia and Herzegovina<span>+387</span></li>
+					   			<li>Bosnia and Herzegovina<span>+387</span></li>
+					   			<li>Bosnia and Herzegovina<span>+387</span></li>
+					   		</ul>
+					   		<p>C</p>
+					   		<ul>
+					   			<li>Canada<span>+1</span></li>
+					   			<li>Canada<span>+1</span></li>
+					   			<li>Canada<span>+1</span></li>
+					   			<li>Canada<span>+1</span></li>
+					   			<li>Canada<span>+1</span></li>
+					   			<li>Canada<span>+1</span></li>
+					   			<li>Canada<span>+1</span></li>
+					   			<li>Canada<span>+1</span></li>
+					   			<li>Canada<span>+1</span></li>
+					   			<li>Canada<span>+1</span></li>
+					   			<li>Canada<span>+1</span></li>
+					   			<li>Canada<span>+1</span></li>
+					   			<li>Canada<span>+1</span></li>
+					   			<li>Canada<span>+1</span></li>
+					   			<li>Canada<span>+1</span></li>
+					   			<li>Canada<span>+1</span></li>
+					   			<li>Canada<span>+1</span></li>
+					   			<li>Canada<span>+1</span></li>
+					   			<li>Canada<span>+1</span></li>
+					   			<li>Canada<span>+1</span></li>
+					   			<li>Canada<span>+1</span></li>
+					   			<li>Canada<span>+1</span></li>
+					   		</ul>
+					   		<p>D</p>
+					   		<ul>
+					   			<li>Djibouti<span>+253</span></li>
+					   			<li>Djibouti<span>+253</span></li>
+					   			<li>Djibouti<span>+253</span></li>
+					   			<li>Djibouti<span>+253</span></li>
+					   		</ul>
+					   		<p>E</p>
+					   		<ul>
+					   			<li>Ecuador<span>+593</span></li>
+					   			<li>Ecuador<span>+593</span></li>
+					   			<li>Ecuador<span>+593</span></li>
+					   			<li>Ecuador<span>+593</span></li>
+					   			<li>Ecuador<span>+593</span></li>
+					   			<li>Ecuador<span>+593</span></li>
+					   			<li>Ecuador<span>+593</span></li>
+					   		</ul>
+					   		<p>F</p>
+					   		<ul>
+					   			<li>Finland<span>+358</span></li>
+					   			<li>Finland<span>+358</span></li>
+					   			<li>Finland<span>+358</span></li>
+					   			<li>Finland<span>+358</span></li>
+					   			<li>Finland<span>+358</span></li>
+					   			<li>Finland<span>+358</span></li>
+					   			<li>Finland<span>+358</span></li>
+					   		</ul>
+					   		<p>G</p>
+					   		<ul>
+					   			<li>Germany<span>+49</span></li>
+					   			<li>Germany<span>+49</span></li>
+					   			<li>Germany<span>+49</span></li>
+					   			<li>Germany<span>+49</span></li>
+					   			<li>Germany<span>+49</span></li>
+					   			<li>Germany<span>+49</span></li>
+					   			<li>Germany<span>+49</span></li>
+					   			<li>Germany<span>+49</span></li>
+					   			<li>Germany<span>+49</span></li>
+					   			<li>Germany<span>+49</span></li>
+					   			<li>Germany<span>+49</span></li>
+					   			<li>Germany<span>+49</span></li>
+					   			<li>Germany<span>+49</span></li>
+					   			<li>Germany<span>+49</span></li>
+					   			<li>Germany<span>+49</span></li>
+					   			<li>Germany<span>+49</span></li>
+					   		</ul>
+					   		<p>H</p>
+					   		<ul>
+					   			<li>Hong Kong<span>+852</span></li>
+					   			<li>Hong Kong<span>+852</span></li>
+					   			<li>Hong Kong<span>+852</span></li>
+					   			<li>Hong Kong<span>+852</span></li>
+					   		</ul>
+					   		<p>I</p>
+					   		<ul>
+					   			<li>Indonesia<span>+62</span></li>
+					   			<li>Indonesia<span>+62</span></li>
+					   			<li>Indonesia<span>+62</span></li>
+					   			<li>Indonesia<span>+62</span></li>
+					   			<li>Indonesia<span>+62</span></li>
+					   			<li>Indonesia<span>+62</span></li>
+					   			<li>Indonesia<span>+62</span></li>
+					   			<li>Indonesia<span>+62</span></li>
+					   			<li>Indonesia<span>+62</span></li>
+					   		</ul>
+					   		<p>J</p>
+					   		<ul>
+					   			<li>Jersey<span>+44</span></li>
+					   			<li>Jersey<span>+44</span></li>
+					   			<li>Jersey<span>+44</span></li>
+					   			<li>Jersey<span>+44</span></li>
+					   		</ul>
+					   		<p>K</p>
+					   		<ul>
+					   			<li>Kenya<span>+254</span></li>
+					   			<li>Kenya<span>+254</span></li>
+					   			<li>Kenya<span>+254</span></li>
+					   			<li>Kenya<span>+254</span></li>
+					   			<li>Kenya<span>+254</span></li>
+					   		</ul>
+					   		<p>L</p>
+					   		<ul>
+					   			<li>Laos<span>+856</span></li>
+					   			<li>Laos<span>+856</span></li>
+					   			<li>Laos<span>+856</span></li>
+					   			<li>Laos<span>+856</span></li>
+					   			<li>Laos<span>+856</span></li>
+					   			<li>Laos<span>+856</span></li>
+					   			<li>Laos<span>+856</span></li>
+					   			<li>Laos<span>+856</span></li>
+					   			<li>Laos<span>+856</span></li>
+					   		</ul>
+					   		<p>M</p>
+					   		<ul>
+					   			<li>Micronesia<span>+691</span></li>
+					   			<li>Micronesia<span>+691</span></li>
+					   			<li>Micronesia<span>+691</span></li>
+					   			<li>Micronesia<span>+691</span></li>
+					   			<li>Micronesia<span>+691</span></li>
+					   			<li>Micronesia<span>+691</span></li>
+					   			<li>Micronesia<span>+691</span></li>
+					   			<li>Micronesia<span>+691</span></li>
+					   			<li>Micronesia<span>+691</span></li>
+					   			<li>Micronesia<span>+691</span></li>
+					   			<li>Micronesia<span>+691</span></li>
+					   			<li>Micronesia<span>+691</span></li>
+					   			<li>Micronesia<span>+691</span></li>
+					   			<li>Micronesia<span>+691</span></li>
+					   			<li>Micronesia<span>+691</span></li>
+					   			<li>Micronesia<span>+691</span></li>
+					   			<li>Micronesia<span>+691</span></li>
+					   			<li>Micronesia<span>+691</span></li>
+					   			<li>Micronesia<span>+691</span></li>
+					   			<li>Micronesia<span>+691</span></li>
+					   			<li>Micronesia<span>+691</span></li>
+					   			<li>Micronesia<span>+691</span></li>
+					   			<li>Micronesia<span>+691</span></li>
+					   		</ul>
+					   		<p>N</p>
+					   		<ul>
+					   			<li>North Korea<span>+850</span></li>
+					   			<li>North Korea<span>+850</span></li>
+					   			<li>North Korea<span>+850</span></li>
+					   			<li>North Korea<span>+850</span></li>
+					   			<li>North Korea<span>+850</span></li>
+					   			<li>North Korea<span>+850</span></li>
+					   			<li>North Korea<span>+850</span></li>
+					   			<li>North Korea<span>+850</span></li>
+					   			<li>North Korea<span>+850</span></li>
+					   			<li>North Korea<span>+850</span></li>
+					   			<li>North Korea<span>+850</span></li>
+					   			<li>North Korea<span>+850</span></li>
+					   			<li>North Korea<span>+850</span></li>
+					   			<li>North Korea<span>+850</span></li>
+					   		</ul>
+					   		<p>O</p>
+					   		<ul>
+					   			<li>Oman<span>+968</span></li>
+					   		</ul>
+					   		<p>P</p>
+					   		<ul>
+					   			<li>Panama<span>+507</span></li>
+					   			<li>Panama<span>+507</span></li>
+					   			<li>Panama<span>+507</span></li>
+					   			<li>Panama<span>+507</span></li>
+					   			<li>Panama<span>+507</span></li>
+					   			<li>Panama<span>+507</span></li>
+					   			<li>Panama<span>+507</span></li>
+					   			<li>Panama<span>+507</span></li>
+					   			<li>Panama<span>+507</span></li>
+					   			<li>Panama<span>+507</span></li>
+					   			<li>Panama<span>+507</span></li>
+					   		</ul>
+					   		<p>Q</p>
+					   		<ul>
+					   			<li>Qatar<span>+974</span></li>
+					   		</ul>
+					   		<p>R</p>
+					   		<ul>
+					   			<li>Reunion<span>+262</span></li>
+					   			<li>Reunion<span>+262</span></li>
+					   			<li>Reunion<span>+262</span></li>
+					   			<li>Reunion<span>+262</span></li>
+					   		</ul>
+					   		<p>S</p>
+					   		<ul>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   			<li>Saint Barthélemy<span>+590</span></li>
+					   		</ul>
+					   		<p>T</p>
+					   		<ul>
+					   			<li>The Democratic Republic Of Congo<span>+243</span></li>
+					   			<li>The Democratic Republic Of Congo<span>+243</span></li>
+					   			<li>The Democratic Republic Of Congo<span>+243</span></li>
+					   			<li>The Democratic Republic Of Congo<span>+243</span></li>
+					   			<li>The Democratic Republic Of Congo<span>+243</span></li>
+					   			<li>The Democratic Republic Of Congo<span>+243</span></li>
+					   			<li>The Democratic Republic Of Congo<span>+243</span></li>
+					   			<li>The Democratic Republic Of Congo<span>+243</span></li>
+					   			<li>The Democratic Republic Of Congo<span>+243</span></li>
+					   			<li>The Democratic Republic Of Congo<span>+243</span></li>
+					   			<li>The Democratic Republic Of Congo<span>+243</span></li>
+					   			<li>The Democratic Republic Of Congo<span>+243</span></li>
+					   			<li>The Democratic Republic Of Congo<span>+243</span></li>
+					   			<li>The Democratic Republic Of Congo<span>+243</span></li>
+					   			<li>The Democratic Republic Of Congo<span>+243</span></li>
+					   		</ul>
+					   		<p>U</p>
+					   		<ul>
+					   			<li>United Arab Emirates<span>+971</span></li>
+					   			<li>United Arab Emirates<span>+971</span></li>
+					   			<li>United Arab Emirates<span>+971</span></li>
+					   			<li>United Arab Emirates<span>+971</span></li>
+					   			<li>United Arab Emirates<span>+971</span></li>
+					   			<li>United Arab Emirates<span>+971</span></li>
+					   			<li>United Arab Emirates<span>+971</span></li>
+					   			<li>United Arab Emirates<span>+971</span></li>
+					   		</ul>
+					   		<p>V</p>
+					   		<ul>
+					   			<li>Vatican<span>+379</span></li>
+					   			<li>Vatican<span>+379</span></li>
+					   			<li>Vatican<span>+379</span></li>
+					   			<li>Vatican<span>+379</span></li>
+					   		</ul>
+					   		<p>W</p>
+					   		<ul>
+					   			<li>Western Sahara<span>+212</span></li>
+					   			<li>Western Sahara<span>+212</span></li>
+					   		</ul>
+					   		<p>Y</p>
+					   		<ul>
+					   			<li>Yemen<span>+967</span></li>
+					   		</ul>
+					   		<p>Z</p>
+					   		<ul>
+					   			<li>Zambia<span>+260</span></li>
+					   			<li>Zambia<span>+260</span></li>
+					   		</ul>
+					   </div>
+				    </div><!-- /.col-lg-6 -->
+				    <div class="form-group phone-box">
+					    <div>
+					      <input type="text" class="form-control" id="phone" placeholder="请输入手机号码">
+					    </div>
+				    </div>
+				    <div class="test testPhone">
+				    	<em class="error"></em>
+				    	<span class="error-text"></span>
+				    </div>
+				    <div class="form-group test-form">
+					    <div class="test-img col-xs-7">
+					      <input type="text" class="form-control" id="number" placeholder="图片验证码">
+					    </div>
+					    <button type="button" class="img-btn col-xs-4 col-xs-offset-1 cancel"></button>
+				    </div>
+                    <div class="test testNum">
+				    	<em class="error"></em>
+				    	<span class="error-text"></span>
+				    </div>					
+				    <div class="form-group">
+					    <div>
+					      <button type="submit" class="reg btn btn-default btn- col-xs-12 cancel">立即注册</button>
+					    </div>
+					</div>
+				</form>
+				<p class="msg">
+					点击"立即注册"，即表示您同意并愿意遵守小米<i>用户协议</i>和<i>隐私政策</i>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<ul class="footer-link">
+			<li><a href="#">简体</a>|</li>
+			<li><a href="#">繁体</a>|</li>
+			<li><a href="#">English</a>|</li>
+			<li><a href="#">常见问题</a></li>
+		</ul>
+		<p class="copyright">小米公司版权所有-京ICP备10046444-<a href="#" class="copy-icon"></a>京公网安备11010802020134号-京ICP证110507号</p>
+	</div>
+</body>
+</html>
